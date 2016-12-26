@@ -1,0 +1,29 @@
+{
+  "name": "kalasoo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "marked": "^0.3.6",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.2.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-watch-pug": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalasoo/kalasoo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalasoo/kalasoo.github.io/issues"
+  },
+  "homepage": "https://github.com/kalasoo/kalasoo.github.io#readme"
+}
