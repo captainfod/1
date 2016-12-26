@@ -60,11 +60,11 @@ footer {
     header, main, footer {
         max-width: 600px;
         margin: 0 auto;
-        padding: 0 .5rem;
+        padding: 0 1rem;
     }
 
     header {
-        padding: 2rem .5rem;
+        padding: 2rem 1rem;
     }
 
     header .title {
@@ -190,6 +190,7 @@ footer {
 
 .content blockquote {
     margin-left: 0;
+    margin-right: 0;
     padding: .5rem 1.5rem;
     border: 2px solid #eaeaea;
 }
