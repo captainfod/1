@@ -8,12 +8,13 @@
     "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.5",
     "gulp": "^3.9.1",
     "gulp-pug": "^3.2.0",
-    "gulp-watch": "^4.3.11",
-    "gulp-watch-pug": "^1.0.0"
+    "marked": "^0.3.6"
   },
   "scripts": {
+    "dev": "gulp dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

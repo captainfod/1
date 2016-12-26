@@ -1,0 +1,21 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title @kalasoo
+        meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+        link(rel='stylesheet', href='style.css')
+    body
+        header
+            .title @kalasoo
+            .sub You don’t have to be great to start, but you have to start to be great. - Zig Ziglar
+        main
+            section
+                .title My Life
+                article.timeline
+                    .stories
+                        each story in stories
+                            .story
+                                .date=story.date
+                                .content!=story.content
+        footer 阴明
