@@ -8,14 +8,21 @@ html
     body
         header
             .title @kalasoo
+            .sub
+                a(href='https://twitter.com/kalasoo') Twitter
+                a(href='https://github.com/kalasoo') GitHub
+                a(href='https://juejin.im/user/551d677ee4b0cd5b623f49cb') 掘金
+                a(href='mailto:ym.kalasoo@gmail.com') Mail
             .sub You don’t have to be great to start, but you have to start to be great. - Zig Ziglar
+
+
+
         main
-            section
-                .title My Life
-                article.timeline
-                    .stories
+            section.timeline
+                article
+                    ul.stories
                         each story in stories
-                            .story
-                                .date=story.date
+                            li.story
+                                p.date=story.date
                                 .content!=story.content
-        footer 阴明
+        footer
