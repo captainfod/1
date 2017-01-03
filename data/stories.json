@@ -1,12 +1,8 @@
 {
     "stories": [
         {
-            "date": "NOW",
-            "content": "Crazy Monster!\n\n>- Running a Startup [XITU.IO](https://xitu.io)\n- Studied @ CUHK & University of Cambridge\n- Founded GradChef and ~~SOLD~~\n- JS coder, comic Lover and Gaga's Fan\n- LGBT 👬👭👬👭👬👭👬👭"
-        },
-        {
             "date": "12/07/2016",
-            "content": "掘金一天的独立访问首次超过 **20** 万",
+            "content": "掘金单日的独立访问首次超过 **20** 万",
             "highlight": false
         },
         {

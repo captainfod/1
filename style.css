@@ -123,7 +123,7 @@ footer {
         display: block;
         height: 2px;
         width: 2rem;
-        background-color: #eaeaea;
+        background-color: #EAEAEA;
         position: absolute;
         bottom: -2rem;
         transition: width .3s;
@@ -142,9 +142,13 @@ footer {
 }
 
 .content::first-letter {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #007FFF;
     font-weight: 900;
+}
+
+.content p {
+    line-height: 1.5rem;
 }
 
 .content strong {
@@ -155,7 +159,7 @@ footer {
     max-width: 80%;
     max-height: 10rem;
     display: block;
-    border: 2px solid #eaeaea;
+    border: 2px solid #EAEAEA;
 }
 
 .content ul {
@@ -164,33 +168,33 @@ footer {
 }
 
 .content ul li {
+    position: relative;
     margin: .5rem 0;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
+    color: #666;
+    transition: color .3s;
 }
 
-.content ul li:nth-child(5n + 1) {
-    background-image: linear-gradient(90deg, #007FFF, #FFFFFF .5rem);
+.content ul li:after {
+    content: " ";
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0;
+    border-left: 2px solid #EAEAEA;
+    transition: border .3s;
 }
 
-.content ul li:nth-child(5n + 2) {
-    background-image: linear-gradient(90deg, #007FFF, #FFFFFF 1rem);
+.content ul li:hover {
+    color: #000;
 }
 
-.content ul li:nth-child(5n + 3) {
-    background-image: linear-gradient(90deg, #007FFF, #FFFFFF 1.5rem);
-}
-
-.content ul li:nth-child(5n + 4) {
-    background-image: linear-gradient(90deg, #007FFF, #FFFFFF 2rem);
-}
-
-.content ul li:nth-child(5n + 5) {
-    background-image: linear-gradient(90deg, #007FFF, #FFFFFF 2.5rem);
+.content ul li:hover:after {
+    border-left-color: #007FFF;
 }
 
 .content blockquote {
     margin-left: 0;
     margin-right: 0;
     padding: .5rem 1.5rem;
-    border: 2px solid #eaeaea;
+    border: 2px solid #EAEAEA;
 }
