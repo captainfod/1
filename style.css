@@ -45,7 +45,22 @@ a:hover, a:active {
 
 /* LAYOUT */
 
+header, main, footer {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 header {
+    padding: 2rem 1rem;
+}
+
+header .title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header a + a {
+    margin-left: .5rem;
 }
 
 main {
@@ -53,41 +68,19 @@ main {
 }
 
 footer {
+    padding: 2rem .5rem;
+    text-align: center;
 }
 
 
-@media (min-width: 600px), (orientation: portrait) {
+@media (min-width: 600px) {
     header, main, footer {
         max-width: 600px;
-        margin: 0 auto;
-        padding: 0 1rem;
-    }
-
-    header {
-        padding: 2rem 1rem;
     }
 
     header .title {
         font-size: 2.5rem;
-        font-weight: 900;
     }
-
-    header a + a {
-        margin-left: .5rem;
-    }
-
-    main {
-
-    }
-
-    footer {
-        padding: 2rem .5rem;
-        text-align: center;
-    }
-}
-
-@media (orientation: landscape) {
-
 }
 
 /* TIMELINE */
@@ -102,20 +95,22 @@ footer {
 }
 
 .stories .story {
+    margin: 1rem 0 2rem;
 }
 
 .story .date {
-    font-weight: 900;
+    line-height: 1.5rem;
+    font-weight: bold;
 }
 
 .story .content {
     font-weight: 100;
 }
 
-@media (min-width: 600px), (orientation: portrait) {
+@media (min-width: 600px) {
     .stories .story {
         position: relative;
-        margin: 1rem 0 4rem;
+        margin-bottom: 4rem;
     }
 
     .stories .story:after {
@@ -137,14 +132,12 @@ footer {
     }
 }
 
-@media (orientation: landscape) {
-
-}
+/* CONTENT */
 
 .content::first-letter {
     font-size: 1.5rem;
     color: #007FFF;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .content p {
@@ -152,14 +145,14 @@ footer {
 }
 
 .content strong {
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .content img {
-    max-width: 80%;
-    max-height: 10rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: 100vw;
     display: block;
-    border: 2px solid #EAEAEA;
 }
 
 .content ul {
@@ -197,4 +190,15 @@ footer {
     margin-right: 0;
     padding: .5rem 1.5rem;
     border: 2px solid #EAEAEA;
+}
+
+@media (min-width: 600px) {
+    .content img {
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+        max-width: 80%;
+        max-height: 10rem;
+        border: 2px solid #EAEAEA;
+    }
 }
