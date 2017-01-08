@@ -13,8 +13,6 @@ html
                 a(href='https://github.com/kalasoo', target='_blank') GitHub
                 a(href='https://juejin.im/user/551d677ee4b0cd5b623f49cb', target='_blank') 掘金
                 a(href='mailto:ym.kalasoo@gmail.com', target='_blank') Mail
-            .sub You don’t have to be great to start, but you have to start to be great. - Zig Ziglar
-            .sub CUHK & Cambridge Graduate, Startup Founder, Developer, Comics, Music and Porn Lover
 
         main
             section.timeline
@@ -24,4 +22,12 @@ html
                             li.story
                                 p.date=story.date
                                 .content!=story.content
-        footer
+        script.
+            (function() {
+                var body = document.body
+                if (body) {
+                    var screenWidth = window.innerWidth
+                    var width = body.scrollWidth
+                    body.scrollLeft = width - screenWidth
+                }
+            })()

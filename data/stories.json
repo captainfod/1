@@ -1,23 +1,27 @@
 {
     "stories": [
         {
+            "date": "QUOTE",
+            "content": ">You don’t have to be great to start, but you have to start to be great.\n\n> Zig Ziglar"
+        },
+        {
             "date": "12/07/2016",
             "content": "掘金单日的独立访问首次超过 **20** 万",
             "highlight": false
         },
         {
             "date": "11/09/2016",
-            "content": "掘金开始启用新域名：[https://juejin.im](https://juejin.im)",
+            "content": "掘金开始启用新域名: [https://juejin.im](https://juejin.im)",
             "highlight": true
         },
         {
             "date": "09/17/2016",
-            "content": "Alexa 世界前 **10000** 名了，掘金也刚刚过完一岁🎂\n\n![](http://ww4.sinaimg.cn/large/5ef54d60jw1fbddfa6gijj20zu0dgdha.jpg)",
+            "content": "Alexa 世界前 **10000** 名了，掘金也刚刚过完一岁🎂",
             "highlight": true
         },
         {
             "date": "11/15/2015",
-            "content": " [掘金](http://gold.xitu.io/)新版上线，是美的！用 [Vue.js](http://gold.xitu.io/#/tag/Vue.js) 也是有一定的感悟了！\n\n![](http://ww4.sinaimg.cn/large/5ef54d60jw1exux8b8goyj213i0mb0wd.jpg)",
+            "content": " [掘金](http://gold.xitu.io/)新版上线，是美的！用 [Vue.js](http://gold.xitu.io/#/tag/Vue.js) 也是有一定的感悟了！",
             "highlight": false
         },
         {
@@ -27,7 +31,7 @@
         },
         {
             "date": "09/13/2015",
-            "content": "[掘金 2.0](http://gold.xitu.io/app) 发布啦！\n\n- NEXT 当日第一\n- V2EX 当日第一\n- 锤子商店首页推荐\n\n![掘金 2.0](http://7xjbd6.com1.z0.glb.clouddn.com/ios-android.png)",
+            "content": "[掘金 2.0](http://gold.xitu.io/app) 发布啦！\n\n- NEXT 当日第一\n- V2EX 当日第一\n- 锤子商店首页推荐",
             "highlight": true
         },
         {
@@ -36,8 +40,12 @@
         },
         {
             "date": "05/28/2015",
-            "content": "稀土掘金，挖掘最优质的互联网技术。产品开发了很久，并于网页、iOS、Android、Chrome Extension全平台上线，以收录、搜索、分享最好的技术干货为目的，往后希望发展成一个优质的互联网技术内容平台。\n\n* 网页版：[gold.xitu.io](http://gold.xitu.io/)\n* Android：[豌豆荚](http://www.wandoujia.com/apps/com.daimajia.gold)\n* iOS：[App Store](https://appsto.re/cn/Gp736.i)\n* Chrome：[官方下载](https://chrome.google.com/webstore/detail/gold/kcbndpepjkbeijkebhfjgkanpkambhil)\n\n![Poster](http://7xjbd6.com1.z0.glb.clouddn.com/5. 分享活动.jpg)",
+            "content": "稀土掘金，挖掘最优质的互联网技术。产品开发了很久，并于网页、iOS、Android、Chrome Extension全平台上线，以收录、搜索、分享最好的技术干货为目的，往后希望发展成一个优质的互联网技术内容平台。\n\n* 网页版: [gold.xitu.io](http://gold.xitu.io/)\n* Android: [豌豆荚](http://www.wandoujia.com/apps/com.daimajia.gold)\n* iOS: [App Store](https://appsto.re/cn/Gp736.i)\n* Chrome: [官方下载](https://chrome.google.com/webstore/detail/gold/kcbndpepjkbeijkebhfjgkanpkambhil)",
             "highlight": true
+        },
+        {
+            "date": "06/19/1990",
+            "content": "我出生在[山西太原](https://goo.gl/maps/CAUGaDWzKLH2)"
         }
     ]
 }
