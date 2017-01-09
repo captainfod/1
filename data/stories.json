@@ -6,42 +6,42 @@
         },
         {
             "date": "12/07/2016",
-            "content": "掘金单日的独立访问首次超过 **20** 万",
+            "content": "掘金單日的獨立訪問首次超過 **20** 萬",
             "highlight": false
         },
         {
             "date": "11/09/2016",
-            "content": "掘金开始启用新域名: [https://juejin.im](https://juejin.im)",
-            "highlight": true
+            "content": "掘金開始啟用新域名: [https://juejin.im](https://juejin.im)",
+            "highlight": false
+        },
+        {
+            "date": "10/23/2016",
+            "content": "[稀土公司首頁](https://xitu.io)重新設計了，想加入團隊的可以敲我們的[招聘頁面](https://xitu.io/jobs)",
+            "highlight": false
         },
         {
             "date": "09/17/2016",
-            "content": "Alexa 世界前 **10000** 名了，掘金也刚刚过完一岁🎂",
+            "content": "Alexa 世界前 **10000** 名了，掘金也剛剛過完壹歲🎂",
             "highlight": true
         },
         {
             "date": "11/15/2015",
-            "content": " [掘金](http://gold.xitu.io/)新版上线，是美的！用 [Vue.js](http://gold.xitu.io/#/tag/Vue.js) 也是有一定的感悟了！",
-            "highlight": false
-        },
-        {
-            "date": "09/21/2015",
-            "content": "I made a simple event application page with Canvas: [LINK](http://kalasoo.github.io/definers-and-makers/)",
+            "content": " [掘金](http://gold.xitu.io/)新版上線，是美的！用 [Vue.js](http://gold.xitu.io/#/tag/Vue.js) 也是有壹定的感悟了！",
             "highlight": false
         },
         {
             "date": "09/13/2015",
-            "content": "[掘金 2.0](http://gold.xitu.io/app) 发布啦！\n\n- NEXT 当日第一\n- V2EX 当日第一\n- 锤子商店首页推荐",
+            "content": "[掘金 2.0](http://gold.xitu.io/app) 正式版發布啦！\n\n- NEXT 當日第壹\n- V2EX 當日第壹\n- 錘子商店首頁推薦",
             "highlight": true
-        },
-        {
-            "date": "07/19/2015",
-            "content": "I gave a talk at [Connext.im](http://connext.im/), a teenager tech/dev community.\n\n> Please check my [slides](http://kalasoo.github.io/connext-presentation/)"
         },
         {
             "date": "05/28/2015",
-            "content": "稀土掘金，挖掘最优质的互联网技术。产品开发了很久，并于网页、iOS、Android、Chrome Extension全平台上线，以收录、搜索、分享最好的技术干货为目的，往后希望发展成一个优质的互联网技术内容平台。\n\n* 网页版: [gold.xitu.io](http://gold.xitu.io/)\n* Android: [豌豆荚](http://www.wandoujia.com/apps/com.daimajia.gold)\n* iOS: [App Store](https://appsto.re/cn/Gp736.i)\n* Chrome: [官方下载](https://chrome.google.com/webstore/detail/gold/kcbndpepjkbeijkebhfjgkanpkambhil)",
+            "content": "稀土掘金，挖掘最優質的互聯網技術。產品開發了很久，並於網頁、iOS、Android、Chrome Extension全平臺上線，以收錄、搜索、分享最好的技術幹貨為目的，往後希望發展成壹個優質的互聯網技術內容平臺。\n\n* 網頁版: [gold.xitu.io](http://gold.xitu.io/)\n* Android: [豌豆莢](http://www.wandoujia.com/apps/com.daimajia.gold)\n* iOS: [App Store](https://appsto.re/cn/Gp736.i)\n* Chrome: [官方下載](https://chrome.google.com/webstore/detail/gold/kcbndpepjkbeijkebhfjgkanpkambhil)",
             "highlight": true
+        },
+        {
+            "date": "06/13/1995",
+            "content": "隨著父親，壹家人從早晨開車到深夜，我們搬到了[北京](https://goo.gl/maps/zERNbkGujN92)，記得快到北京的時候，我很餓、很困、很累。誰知道未來在北京的生活只會更累。"
         },
         {
             "date": "06/19/1990",

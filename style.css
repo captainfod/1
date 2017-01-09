@@ -164,7 +164,7 @@ footer {
 }
 
 .content ul li:hover:after {
-    border-left-color: #007FFF;
+    border-top-color: #007FFF;
 }
 
 .content blockquote {
