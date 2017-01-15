@@ -174,9 +174,11 @@ footer {
     position: relative;
     margin: 0;
     padding: 1.5rem .5rem;
+    font-style: italic;
+    background-image: linear-gradient(to bottom, #EAEAEA, #FFF 20%);
 }
 
-.content blockquote:before {
+/*.content blockquote:before {
     content: " ";
     position: absolute;
     top: 0; right: 0;
@@ -184,4 +186,4 @@ footer {
     height: 1rem;
     border-top: 2px solid #EAEAEA;
     border-right: 2px solid #EAEAEA;
-}
+}*/
