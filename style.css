@@ -142,6 +142,10 @@ footer {
     font-weight: bold;
 }
 
+.content img {
+    max-height: 50%;
+}
+
 .content ul {
     list-style: none;
     padding-left: 0;
