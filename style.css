@@ -26,7 +26,6 @@ body {
 /* Typography */
 
 a {
-    display: inline-block;
     text-decoration: none;
     color: #000;
     transition: color .3s, border .3s;
