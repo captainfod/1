@@ -6,9 +6,6 @@ html
         meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
         link(rel='stylesheet', href='style.css')
     body
-        header
-            .title @kalasoo
-
         main
             section.timeline
                 article
@@ -17,6 +14,9 @@ html
                             li.story
                                 p.date=story.date
                                 .content!=story.content
+        .background
+            img.float.boat(src='img/boat.png')
+
         script.
             (function() {
                 var body = document.body
