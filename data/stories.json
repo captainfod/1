@@ -30,7 +30,8 @@
         },
         {
             "date": "12/25/2015",
-            "content": "稀土獲得了 Pre-A 輪融資"
+            "content": "稀土獲得了 Pre-A 輪融資",
+            "highlight": true
         },
         {
             "date": "09/13/2015",
@@ -50,7 +51,8 @@
         },
         {
             "date": "12/19/2014",
-            "content": "稀土獲得了天使輪投資"
+            "content": "稀土獲得了天使輪投資",
+            "highlight": true
         },
         {
             "date": "12/15/2014",
@@ -106,7 +108,8 @@
         },
         {
             "date": "10/01/2013",
-            "content": "前往 [University of Cambridge](https://www.cam.ac.uk/) 讀 [M.Phil in Advanced Computer Science](http://www.cl.cam.ac.uk/)，加入 [Darwin College](https://www.darwin.cam.ac.uk/)"
+            "content": "前往 [University of Cambridge](https://www.cam.ac.uk/) 讀 [M.Phil in Advanced Computer Science](http://www.cl.cam.ac.uk/)，加入 [Darwin College](https://www.darwin.cam.ac.uk/)",
+            "highlight": true
         },
         {
             "date": "09/27/2013",
@@ -142,7 +145,8 @@
         },
         {
             "date": "09/01/2008",
-            "content": "這年我高考考的不錯，考了 667 分並前往[香港中文大學](https://cuhk.edu.hk/)學習[信息工程](http://www.ie.cuhk.edu.hk/)。"
+            "content": "這年我高考考的不錯，考了 667 分並前往[香港中文大學](https://cuhk.edu.hk/)學習[信息工程](http://www.ie.cuhk.edu.hk/)。",
+            "highlight": true
         },
         {
             "date": "06/13/1995",
@@ -150,7 +154,8 @@
         },
         {
             "date": "06/19/1990",
-            "content": "我出生在[山西太原](https://goo.gl/maps/CAUGaDWzKLH2)"
+            "content": "我出生在[山西太原](https://goo.gl/maps/CAUGaDWzKLH2)",
+            "highlight": true
         }
     ]
 }

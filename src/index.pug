@@ -11,7 +11,7 @@ html
                 article
                     ul.stories
                         each story in stories
-                            li.story
+                            li.story(class=(story.highlight ? "highlight" : ""))
                                 p.date=story.date
                                 .content!=story.content
         .background
