@@ -14,9 +14,10 @@ html
                             li.story(class=(story.highlight ? "highlight" : ""))
                                 p.date=story.date
                                 .content!=story.content
+        a.comments(href='https://github.com/kalasoo/kalasoo.github.io/issues', target='_blank')
+            .popup 和我聊聊
+            img.boat(src='img/boat.png')
         .background
-            img.float.boat(src='img/boat.png')
-
         script.
             (function() {
                 var body = document.body

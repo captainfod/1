@@ -177,13 +177,13 @@ main .sub {
     right: 0;
     bottom: 0;
     z-index: -1;
+    background-image: linear-gradient(to bottom, #fff 70%, #ddd);
 }
 
-.background .float {
-    position: absolute;
-}
-
-.boat {
+.comments {
+    display: block;
+    position: fixed;
+    cursor: pointer;
     bottom: 5vh;
     right: 10vw;
     animation: boat 10s infinite alternate;
@@ -202,4 +202,25 @@ main .sub {
     100% {
         transform: translate3d(.2rem, -.7rem, 0);
     }
+}
+
+.comments .popup {
+    position: absolute;
+    top: -.5rem;
+    left: -1.5rem;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    transition: opacity .3s, color .3s, transform .3s;
+    opacity: 0;
+    transform: scale(.9);
+    border: 2px solid #ddd;
+    font-size: .8rem;
+    padding: .2rem 0;
+    margin: .2rem 0;
+}
+
+.comments:hover .popup, .comments:active .popup {
+    color: #666;
+    opacity: 1;
+    transform: translate3d(-.5rem, 0, 0) scale(1);
 }
