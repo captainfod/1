@@ -232,14 +232,14 @@
       <div class="popup">和我聊聊</div><img class="boat" src="img/boat.png"></a>
     <div class="background"></div>
     <script>
-      (function() {
+      window.onload = function () {
           var body = document.body
           if (body) {
               var screenWidth = window.innerWidth
               var width = body.scrollWidth
               body.scrollLeft = width - screenWidth
           }
-      })()
+      }
     </script>
   </body>
 </html>

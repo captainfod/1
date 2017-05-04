@@ -30,11 +30,11 @@ html
             img.boat(src='img/boat.png')
         .background
         script.
-            (function() {
+            window.onload = function () {
                 var body = document.body
                 if (body) {
                     var screenWidth = window.innerWidth
                     var width = body.scrollWidth
                     body.scrollLeft = width - screenWidth
                 }
-            })()
+            }
