@@ -10,6 +10,16 @@ html
             section.timeline
                 article
                     ul.stories
+                        li.story
+                            p.date ABOUT
+                            .content 明
+                                p
+                                    a(href='https://twitter.com/kalasoo') Twitter
+                                    a(href='https://github.com/kalasoo') GitHub
+                                    a(href='https://juejin.im/user/551d677ee4b0cd5b623f49cb') 掘金
+                                    a(href='mailto:ym.kalasoo@gmail.com') Mail
+                                blockquote
+                                    p 心若止水，泰然處之
                         each story in stories
                             li.story(class=(story.highlight ? "highlight" : ""))
                                 p.date=story.date
