@@ -205,7 +205,7 @@ main .sub {
 .comments .popup {
     position: absolute;
     top: -.5rem;
-    left: -1.5rem;
+    left: -.5rem;
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
     transition: opacity .3s, color .3s, transform .3s;
