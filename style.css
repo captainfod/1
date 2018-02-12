@@ -112,7 +112,7 @@ main .sub {
 }
 
 .story .content {
-    font-weight: 100;
+    color: #333;
 }
 
 /* CONTENT */
@@ -175,7 +175,6 @@ main .sub {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-image: linear-gradient(to bottom, #fff 70%, #ddd);
 }
 
 .comments {
