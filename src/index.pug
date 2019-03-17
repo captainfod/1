@@ -31,7 +31,10 @@ html
         a.comments(href='https://github.com/kalasoo/kalasoo.github.io/issues/1', target='_blank')
             .popup 和我聊聊
             img.boat(src='img/boat.png')
-        .background
+        .cover
+            h1 Ming Yin
+            h2 阴明
+            blockquote We can only see a short distance ahead, but we can see plenty there that needs to be done.
         script.
             window.onload = function () {
                 var body = document.body
@@ -67,4 +70,9 @@ html
                     })
                 }
                 changeLang(null, lang)
+                //- Cover
+                var cover = document.querySelector('.cover')
+                setTimeout(function() {
+                    cover.classList.add('done')
+                }, 1000)
             }

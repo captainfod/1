@@ -305,7 +305,11 @@
       </section>
     </main><a class="comments" href="https://github.com/kalasoo/kalasoo.github.io/issues/1" target="_blank">
       <div class="popup">和我聊聊</div><img class="boat" src="img/boat.png"></a>
-    <div class="background"></div>
+    <div class="cover">
+      <h1>Ming Yin</h1>
+      <h2>阴明</h2>
+      <blockquote>We can only see a short distance ahead, but we can see plenty there that needs to be done.</blockquote>
+    </div>
     <script>
       window.onload = function () {
           var body = document.body
@@ -341,6 +345,11 @@
               })
           }
           changeLang(null, lang)
+          //- Cover
+          var cover = document.querySelector('.cover')
+          setTimeout(function() {
+              cover.classList.add('done')
+          }, 1000)
       }
     </script>
   </body>

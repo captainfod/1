@@ -18,7 +18,7 @@ nav {
     top: 0;
     right: 0;
     padding: .2em .5em;
-    z-index: 100;
+    z-index: 9;
     opacity: .5;
     transition: opacity .3s;
 }
@@ -36,6 +36,29 @@ nav .meta {
 
 nav .meta.active {
     color: #0070e0;
+}
+
+.cover {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 30vh;
+    transition: all .3s;
+}
+
+.cover.done {
+    opacity: 0;
+    z-index: -1;
+}
+
+.cover blockquote {
+    color: #637282;
+    font-style: italic;
 }
 
 /* 
@@ -279,17 +302,6 @@ html.cn {
     padding: 1.5rem .5rem;
     font-style: italic;
     background-image: linear-gradient(to bottom, #EAEAEA, rgba(255, 255, 255, 0) 20%);
-}
-
-/* BACKGROUND */
-
-.cn .background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
 }
 
 /* COMMENTS */
