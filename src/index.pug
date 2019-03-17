@@ -6,24 +6,27 @@ html
         meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
         link(rel='stylesheet', href='style.css')
     body
+        nav#language
+            .meta(data-lang='en') 标准
+            .meta(data-lang='cn') 中式
         main
             section.timeline
                 article
                     ul.stories
                         li.story
-                            p.date ABOUT
+                            .date ABOUT
                             .content 
                                 h2 明
                                 p
-                                    a(href='https://twitter.com/kalasoo') Twitter
-                                    a(href='https://github.com/kalasoo') GitHub
-                                    a(href='https://juejin.im/user/551d677ee4b0cd5b623f49cb') 掘金
-                                    a(href='mailto:ym.kalasoo@gmail.com') Mail
+                                    a.social-link(href='https://twitter.com/kalasoo') Twitter
+                                    a.social-link(href='https://github.com/kalasoo') GitHub
+                                    a.social-link(href='https://juejin.im/user/551d677ee4b0cd5b623f49cb') 掘金
+                                    a.social-link(href='mailto:ym.kalasoo@gmail.com') Mail
                                 blockquote
                                     p 心若止水，泰然處之
                         each story in stories
                             li.story(class=(story.highlight ? "highlight" : ""))
-                                p.date=story.date
+                                .date=story.date
                                 .content!=story.content
         a.comments(href='https://github.com/kalasoo/kalasoo.github.io/issues/1', target='_blank')
             .popup 和我聊聊
@@ -37,4 +40,31 @@ html
                     var width = body.scrollWidth
                     body.scrollLeft = width - screenWidth
                 }
+                //- Model
+                var lang = localStorage.getItem('lang') || 'en'
+                //- Controller
+                var langSelections = Array.from(document.querySelectorAll('#language .meta'))
+                langSelections.forEach(function(langSelection) {
+                    langSelection.addEventListener('click', function(e) {
+                        var newLang = e.target.dataset.lang
+                        changeLang(lang, newLang)
+                        lang = newLang
+                        localStorage.setItem('lang', lang)
+                    })
+                })
+                //- View
+                var html = document.querySelector('html')
+                var changeLang = function(oldLang, newLang) {
+                    if (!newLang) return
+                    html.classList.remove(oldLang)
+                    html.classList.add(newLang)
+                    langSelections.forEach(function(langSelection) {
+                        if (langSelection.dataset.lang == newLang) {
+                            langSelection.classList.add('active')
+                        } else {
+                            langSelection.classList.remove('active')
+                        }
+                    })
+                }
+                changeLang(null, lang)
             }
