@@ -2,146 +2,11 @@
     "stories": [
         {
             "date": "ABOUT",
-            "content": "## 明\n\n[Twitter](https://twitter.com/kalasoo)[GitHub](https://github.com/kalasoo)[掘金](https://juejin.im/user/551d677ee4b0cd5b623f49cb)[Mail](mailto:ym.kalasoo@gmail.com)\n\n> 心若止水，泰然處之"
+            "content": "## Captain\n\n[Twitter](https://twitter.com/Captain79768021)[GitHub](https://github.com/captainfod)[掘金](https://juejin.im/user/5afaa9326fb9a07aa83ee30f)[Mail](mailto:ym.captainzbin@gmail.com)\n\n> 无关来路"
         },
         {
             "date": "03/06/2017",
             "content": ">最難的必是始終如壹，常見的總是變幻無常"
-        },
-        {
-            "date": "02/20/2017",
-            "content": "公司搬到了望京SOHO"
-        },
-        {
-            "date": "01/20/2017",
-            "content": "第壹次全公司團體出行來，[韓國首爾](https://goo.gl/maps/xPhRt25xkN82)"
-        },
-        {
-            "date": "01/14/2017",
-            "content": "掘金發布吉祥物：**Panfish**\n\n![](https://ws3.sinaimg.cn/large/5ef54d60gw1fbrami2emej20hs0hsdfy.jpg)"
-        },
-        {
-            "date": "12/07/2016",
-            "content": "掘金單日的獨立訪問首次超過 **20** 萬"
-        },
-        {
-            "date": "11/09/2016",
-            "content": "掘金開始啟用新域名: [https://juejin.im](https://juejin.im)"
-        },
-        {
-            "date": "10/23/2016",
-            "content": "[稀土公司首頁](https://xitu.io)重新設計了，想加入團隊的可以敲我們的[招聘頁面](https://xitu.io/jobs)"
-        },
-        {
-            "date": "09/17/2016",
-            "content": "Alexa 世界前 **10000** 名了，掘金也剛剛過完壹歲🎂"
-        },
-        {
-            "date": "12/25/2015",
-            "content": "稀土獲得了 Pre-A 輪融資",
-            "highlight": true
-        },
-        {
-            "date": "09/13/2015",
-            "content": "[掘金 2.0](http://gold.xitu.io/app) 正式版發布啦！\n\n- NEXT 當日第壹\n- V2EX 當日第壹\n- 錘子商店首頁推薦"
-        },
-        {
-            "date": "05/28/2015",
-            "content": "稀土掘金，挖掘最優質的互聯網技術。產品開發了很久，並於網頁、iOS、Android、Chrome Extension全平臺上線，以收錄、搜索、分享最好的技術幹貨為目的，往後希望發展成壹個優質的互聯網技術內容平臺。\n\n* 網頁版: [gold.xitu.io](http://gold.xitu.io/)\n* Android: [豌豆莢](http://www.wandoujia.com/apps/com.daimajia.gold)\n* iOS: [App Store](https://appsto.re/cn/Gp736.i)\n* Chrome: [官方下載](https://chrome.google.com/webstore/detail/gold/kcbndpepjkbeijkebhfjgkanpkambhil)"
-        },
-        {
-            "date": "04/20/2015",
-            "content": "在香港的壹場 90 後創業家演講上，我宣布了去做[掘金](http://gold.xitu.io)"
-        },
-        {
-            "date": "12/19/2014",
-            "content": "稀土獲得了天使輪投資",
-            "highlight": true
-        },
-        {
-            "date": "12/15/2014",
-            "content": "[稀土 - β公測版](https://xitu.io)發布，邀請碼瞬間被搶光"
-        },
-        {
-            "date": "11/17/2014",
-            "content": "[稀土 - α內測版](https://xitu.io)發布"
-        },
-        {
-            "date": "11/17/2014",
-            "content": "我們開始了壹個新的旅程：[稀土](https://xitu.io)"
-        },
-        {
-            "date": "10/01/2014",
-            "content": "和幾個朋友壹起做了壹個小項目：Impressive"
-        },
-        {
-            "date": "09/26/2014",
-            "content": "我和幾位團隊成員討論之後抉定停止 GradChef 項目，它收到了資本的青睞拿到兩個 TS，但是它在商業上是錯誤的，我在[博客](http://blog.ming.today/2014/09/26/gradchef-is-somehow-stopped/)裏解釋了壹下。"
-        },
-        {
-            "date": "08/28/2014",
-            "content": "和徐小平在國貿真格基金見面，他說畢老師沒有價值"
-        },
-        {
-            "date": "08/23/2014",
-            "content": "在氪空間第壹期的畢業典禮上，作為第二期項目，我做了人生中第壹場 [Roadshow](https://docs.google.com/presentation/d/1HTIPN3wOYwUMqoMWX-C3891HkN7AfGuSW4Osso-VYQA/edit?usp=sharing)"
-        },
-        {
-            "date": "06/26/2014",
-            "content": "從劍橋大學以最高 Distinction 榮譽畢業"
-        },
-        {
-            "date": "06/12/2014",
-            "content": "完成了自己的第八版 M.Phil Dissertation [Generalized Cut Sets with Applications](https://www.dropbox.com/s/1wgadpshkjpz5qc/MPhil_ACS_Dissertation.pdf?dl=0)\n\n相關的演講報告：[Final M.Phil Presentation](https://www.dropbox.com/s/qdr2fv7595d38w7/MPhil_Presentation_Ming.pdf)"
-        },
-        {
-            "date": "05/11/2014",
-            "content": "申請並被錄取[氪空間第二期](http://space.36kr.com/)"
-        },
-        {
-            "date": "05/02/2014",
-            "content": "受代碼家啟發，我做了自己第壹個小的前端開源庫 [NumberProgressBar](http://kalasoo.github.io/NumberProgressBar/)"
-        },
-        {
-            "date": "04/01/2014",
-            "content": "畢老師獲得了它第 **10000** 條申請數據"
-        },
-        {
-            "date": "11/11/2013",
-            "content": "畢老師 GradChef Beta 發布"
-        },
-        {
-            "date": "10/01/2013",
-            "content": "前往 [University of Cambridge](https://www.cam.ac.uk/) 讀 [M.Phil in Advanced Computer Science](http://www.cl.cam.ac.uk/)，加入 [Darwin College](https://www.darwin.cam.ac.uk/)",
-            "highlight": true
-        },
-        {
-            "date": "09/27/2013",
-            "content": "為 Strikingly 開發了第壹套洋式主題：[Light Deck](http://www.strikingly.com/iphone-sample?mode=preview)"
-        },
-        {
-            "date": "08/19/2013",
-            "content": "加入 [Strikingly](http://strikingly.com/) 做前端開發，學習了 Knockout.js"
-        },
-        {
-            "date": "06/01/2013",
-            "content": "從[香港中文大學](https://cuhk.edu.hk/)本科畢業，甲等最高榮譽"
-        },
-        {
-            "date": "05/20/2013",
-            "content": "完成了本科畢業論文：[Final Year Project Report](https://github.com/kalasoo/rudp)"
-        },
-        {
-            "date": "05/01/2013",
-            "content": "畢老師 [GradChef.com](http://gradchef.com/) 的第壹個 Git Commit"
-        },
-        {
-            "date": "05/01/2013",
-            "content": "有了做畢老師的想法，壹個中國學生申請學校的數據庫，求 **Ruoyu** 來幫忙"
-        },
-        {
-            "date": "02/01/2013",
-            "content": "在騰訊深圳 KM 組實習，每周來往香港深圳壹次，也是瘋狂"
         },
         {
             "date": "06/01/2010",
@@ -149,16 +14,16 @@
         },
         {
             "date": "09/01/2008",
-            "content": "這年我高考考的不錯，考了 667 分並前往[香港中文大學](https://cuhk.edu.hk/)學習[信息工程](http://www.ie.cuhk.edu.hk/)。",
+            "content": "這年我中考考的不錯，前往[北大附中河南分校](http://www.zzyhelite.com/)學習[文科]，并在这里认识了几个好兄弟。",
             "highlight": true
         },
         {
-            "date": "06/13/1995",
-            "content": "隨著父母，壹家人搬到了[北京](https://goo.gl/maps/zERNbkGujN92)，記得快到北京的時候，我很餓、很困、很累。誰知道未來在北京的生活只會更累。"
+            "date": "06/13/2001",
+            "content": "隨著父母，第一次来到晋江[晋江](https://goo.gl/maps/zERNbkGujN92)，記得第一次坐火车的時候，我很难受还晕车了，对大城市充满着好奇，誰知道未來城市的生活只會更累。"
         },
         {
-            "date": "06/19/1990",
-            "content": "我出生在[山西太原](https://goo.gl/maps/CAUGaDWzKLH2)",
+            "date": "02/05/1994",
+            "content": "我出生在[河南周口](https://goo.gl/maps/CAUGaDWzKLH2)",
             "highlight": true
         }
     ]
